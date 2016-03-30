@@ -10,9 +10,7 @@ class JobValidationError(Exception):
     if validation fails, e.g. because the requested package
     is not available in the specified index.yaml
     """
-
-    def __init__(self, message):
-        self.message = message
+    pass
 
 
 class Scope(object):
